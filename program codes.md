@@ -1,4 +1,4 @@
-##### Program 5
+### Program 5
 Write a program using Arduino to control LED (one or more) blinking.
 ```cpp
 int ledPin = 13; // Pin connected to the LED
@@ -17,7 +17,7 @@ void loop()
 }
 ```
 
-##### Program 6
+### Program 6
 Create a program that illuminates the green LED if the counter is less than 100, illuminates the yellow LED if the counter is between 101 and 200 and illuminates the red LED if the counter is greater than 200
 ```python
 import RPi.GPIO as GPIO
@@ -55,7 +55,7 @@ while True:
 
 ```
 
-##### Program 7
+### Program 7
 Create a program so that when the users enter G the green light blinks, when Y the yellow light illuminates and R the red light illuminates.
 ```python
 import RPi.GPIO as GPIO
@@ -89,7 +89,7 @@ while True:
 
 ```
 
-##### Program 8
+### Program 8
 Write a program to control color of LED by turning three different potentiometer. One will read for the value of red, one for the value of green, and one for the value of blue.
 ```cpp
 const int redPin = 9;    // Pin for red LED
@@ -137,7 +137,7 @@ void loop() {
 }
 ```
 
-##### Program 9
+### Program 9
 Write a program to read the temperature sensor and send the values to the serial monitor on computer.
 ```python
 import Adafruit_DHT as Ada
@@ -156,7 +156,7 @@ while True:
     # Break the loop after reading the values once
 ```
 
-##### Program 10
+### Program 10
 Write a program so it displays the temperature in Fahrenheit as well as the maximum and minimum temperature it has seen
 ```python
 import Adafruit_DHT as Ada
@@ -192,7 +192,7 @@ while True:
     # Update maximum temperature if a higher value is found within 5 iterations
 ```
 
-##### Program 11
+### Program 11
 Write a program using piezo element and use it to play a tune after someone knocks
 ```cpp
 const int piezoPin = A1;    // Pin for the piezo buzzer
@@ -225,7 +225,7 @@ void loop() {
 
 ```
 
-##### Program 12
+### Program 12
 Understanding the connectivity of Raspberry PI with IR sensor. Write an application to detect obstacle and notify the user using LEDs
 ```python
 import RPi.GPIO as GPIO
