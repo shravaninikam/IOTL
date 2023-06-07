@@ -1,28 +1,36 @@
 
-##### What is IoT?
+### What is IoT?
 IoT stands for an Internet of Things. It is largely a network using which matters can talk to  
 each other the use of the internet as an approach to communication between them. All of  
 the matters should be IP protocol enabled on the way to have this concept viable.
 
-##### Examples of IoT in our lives?
+---
+
+### Examples of IoT in our lives?
 1. Home Security and Smart Domestic
 2. Healthcare
 3. Wearable Technology
 4. Tracking Assets
 5. Connected Car
 
-##### Raspberry Pi
+---
+
+### Raspberry Pi
 The Raspberry Pi is a low cost, tiny computer, about the size of a credit card. You can plug  
 your keyboard, mouse and your TV into it, and use it just as you would use a PC.
 
-##### What are GPIO Pins used in Raspberry Pi boards?
+---
+
+### What are GPIO Pins used in Raspberry Pi boards?
 GPIO is the acronym for **General Purpose Input Output Pin**. They are more like  
 switches on the board that gives an output voltage when high and give no voltage when  
 turned to low. This is used in the Raspberry Pi boards to make an interface between the  
 Raspberry Pi and all the components of the board. This enables multiple interactions and  
 makes internal properties of devices easily available on board.
 
-##### Raspberry Pi Pins
+---
+
+### Raspberry Pi Pins
 1. Power Pins:
     - 3.3V: This pin provides a regulated 3.3V power supply.
     - 5V: This pin provides a regulated 5V power supply.
@@ -54,7 +62,9 @@ makes internal properties of devices easily available on board.
 
 It's important to refer to the specific pinout diagram and documentation for the particular Raspberry Pi model you are using, as the number and configuration of the pins may vary between different Raspberry Pi boards.
 
-##### Arduino
+---
+
+### Arduino
 Arduino is an open-source electronics platform that provides a flexible and user-friendly environment for creating interactive projects. It consists of a hardware board with various input and output pins and a software development environment that allows users to write and upload code to the board. Here's some information about Arduino:
 
 1. Arduino Board:
@@ -78,7 +88,7 @@ Arduino is an open-source electronics platform that provides a flexible and user
     - It is suitable for various fields, including robotics, home automation, Internet of Things (IoT), wearables, art installations, and education.
     - Arduino's versatility, ease of use, and low-cost nature make it accessible to beginners while providing enough flexibility for advanced users.
 
-##### What is Adafruit and DHT11 Sensor?
+### What is Adafruit and DHT11 Sensor?
 -  The Adafruit_DHT library is a Python library that provides functions for reading data from DHT series temperature and humidity sensors.
     - It simplifies the process of interfacing with DHT sensors by providing convenient methods for reading sensor data.
     - The library supports different DHT sensor models, such as DHT11, DHT22, and AM2302.
@@ -88,7 +98,9 @@ Arduino is an open-source electronics platform that provides a flexible and user
     - The humidity measurement range is 20% to 90% with an accuracy of ±5%.
     - The sensor communicates using a proprietary 1-wire protocol that requires a microcontroller or a computer with GPIO capabilities for data retrieval.
 
-##### Ardunio Pins
+---
+
+### Ardunio Pins
 1. Digital Pins:
     - Digital Pin 0 (D0) / RX: Receive pin for serial communication (UART).
     - Digital Pin 1 (D1) / TX: Transmit pin for serial communication (UART).
@@ -107,10 +119,12 @@ Arduino is an open-source electronics platform that provides a flexible and user
 
 It's important to note that the specific pin configuration may vary depending on the Arduino board model. The pins mentioned above correspond to the Arduino Uno board, which is one of the most commonly used models. Other Arduino boards may have additional or different pins based on their design and capabilities.
 
-##### What is IR Sensor?
+---
+
+### What is IR Sensor?
 An infrared (IR) sensor, also known as an infrared detector or IR receiver, is a device that detects and responds to infrared radiation. It is commonly used in various applications, including proximity sensing, object detection, and remote control systems. The IR sensor operates by receiving and interpreting the infrared signals emitted by objects in its detection range.
 
-##### What is a piezo buzzer and how does it work? 
+---
+
+### What is a piezo buzzer and how does it work? 
 A piezo buzzer is a small electronic component that can generate sound or tones when an electrical signal is applied to it. It consists of a piezoelectric element, which is a crystal that vibrates when an electric field is applied to it. The vibration of the crystal creates sound waves, producing audible tones. In the provided code, the piezo buzzer connected to pin A1 is used to play a melody by generating different frequencies of tones.
-
-
